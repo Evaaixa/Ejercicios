@@ -1,23 +1,35 @@
-header {
-    text-align: center;
-    padding: 5rem;
-    text-transform: uppercase;
-    font-size: 0.75rem;
+:root {
+    --white: #ffffff;
+    --dark: #080808;
+    --primary: #f8ebeb;
+    --secundary: #db8080;
+    --radio-borde: .5rem;
 }
+
 img {
     width: 90%;
 }
 
-main h2 {
-    font-size: 1.5rem;
-    color: blue;
-    text-align: center;
-    background-color: azure;
+main {
+    padding: 1.5rem;
+    border-radius: 1rem;
 }
 
-main h3 {
+h2 {
     font-size: medium;
-    text-align: justify;
-
+    color: #db8080;
 }
+
+.preparacion {
+    background-color: #f8e5e5;
+    padding: .5rem;
+}
+
+.receta h3 {
+    font-style: bolder;
+    color: #bd6969;
+}
+
+
+
 
