@@ -6,13 +6,25 @@
     --radio-borde: .5rem;
 }
 
+@font-face {
+    font-family: ;
+    src: url();
+}
 img {
-    width: 90%;
+    width: 100%;
+    border-radius: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+body {
+    background-color: rgba(252, 252, 240, 0.822);
+    
 }
 
 h1 {
     p {
         text-align: justify;
+        border: 1.5rem;
     }
 }
 
@@ -27,8 +39,12 @@ h3 {
 }
 
 .preparacion {
+    width: 95%;
+    max-width: 1000%;
     background-color: #f8e5e5;
-    padding: .5rem;
+    margin: rem auto;
+    padding: 1rem;
+    border-radius: 1rem;
 }
 
 h2 {
