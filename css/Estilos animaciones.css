@@ -1,0 +1,65 @@
+@keyframes cambiocolor {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+@keyframes porcentajes {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+.animacion1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: cambiocolor;
+    animation-duration: 4s;
+}
+
+.amimacion2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.animacion2:hover {
+    animation-name: cambiocolor;
+    animation-duration: 4s;
+}
+
+.animacion3 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: cuatrofases;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cuatrofases {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+.animacion4 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: transformy;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+}
+
+@keyframes transformy {
+    from {
+        transform: translateY(-10px);
+        opacity: 0;
+    }    
+    to {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
